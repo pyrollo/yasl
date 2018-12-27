@@ -1,0 +1,7 @@
+Code :
+Pierre-Yves Rollo
+
+Icons :
+password : lock icon from Oxygen Team - LGPL
+creative, damage, pvp : original minetest icons
+roll, far, filter, filter-add : Yusuke Kamiyamane - CC Attribution 4.0

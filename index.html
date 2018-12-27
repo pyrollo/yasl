@@ -1,0 +1,42 @@
+<!--
+	YASL for Minetest - Yet Another Server List
+	(c) Pierre-Yves Rollo
+
+	This file is part of YASL.
+
+	signs is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	signs is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with signs.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="serverlist.js"></script>
+</head>
+<body onload="init();">
+    <div id="head" class="bar">
+        <span class="box">
+            <select id="filter-types" onchange="on_change('filter-types')" disabled></select>
+            <select id="filter-list-values" disabled onchange="on_change('filter-list-values')"></select>
+            <input type="button" id="filter-button" value="Filter" onclick="add_filter()" disabled  />
+        </span>
+        <div id="filters"></div>
+    </div>
+    <div  id="page-servers">
+        <div id="servers-header"></div>
+        <div id="servers-list"></div>
+    </div>
+</body>
+</html>
+
